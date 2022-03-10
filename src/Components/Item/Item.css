@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 0;
+}
+.Button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.Button {
+  transition-duration: 0.4s;
+}
+
+.Button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+  cursor: pointer;
+}
